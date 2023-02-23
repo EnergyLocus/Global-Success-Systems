@@ -1,0 +1,73 @@
+.pos-rel {
+    position: relative;
+}
+
+.pos-abs {
+    position: absolute;
+}
+
+.pos-inherit {
+    position: inherit;
+}
+
+.t-0-l-0 {
+    top: 0px;
+    left: 0px;
+}
+
+.t-30-l-30 {
+    top: 30.91px;
+    left: 30.91px;
+}
+
+.t-74-l-30 {
+    left: 30px;
+    top: 74px;
+}
+
+.t-20-r-15 {
+    top: 20px;
+    right: 15px;
+}
+
+.t-51-l-115 {
+    top: 51px;
+    left: 115px;
+}
+
+.ft-sz-48 {
+    font-size: 48px;
+    line-height: 52.8px;
+}
+
+.ft-sz-18 {
+    font-size: 18px;
+    line-height: 24.59px;
+}
+
+.t-241-l-119 {
+    left: 119px;
+    top: 241px;
+}
+
+.t-339 {
+    top: 339px;
+}
+
+.l-115 {
+    left: 115px;
+}
+
+.l-365 {
+    left: 365px;
+}
+
+.t-519-l-115 {
+    top: 519px;
+    left: 115px;
+}
+
+.t-550-l-145 {
+    top: 550px;
+    left: 145px;
+}

@@ -1,0 +1,55 @@
+.color-primary {
+    color: #454A6D;
+}
+
+.color-secondary {
+    color: #EA9212;
+}
+
+.color-tertiary {
+    color: #005DF2;
+}
+
+.color-white {
+    color: white;
+}
+
+.bg-primary {
+    background-color: #454A6D;
+}
+
+.bg-secondary {
+    background-color: #EA9212;
+}
+
+.bg-tertiary {
+    background-color: #005DF2;
+}
+
+.bg-quaternary {
+    background-color: #D2E3FF;
+}
+
+.no-bg {
+    background: none;
+}
+
+.border-teritary {
+    border: 1px solid #005DF2;
+}
+
+.bg-white {
+    background-color: white;
+}
+
+.bg-footer {
+    background-color: #061C41;
+}
+
+.bg-trap {
+    background-color: transparent;
+}
+
+.bg-uno {
+    background-color: #F0F6FF;
+}

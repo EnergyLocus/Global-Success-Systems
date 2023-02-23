@@ -1,0 +1,31 @@
+.font-dmserif {
+    font-family: 'DM Serif Text', serif;
+}
+
+.font-manrope {
+    font-family: 'Manrope', sans-serif;
+}
+
+.font-recolate {
+    font-family: 'Recoleta', sans-serif;
+}
+
+.txt-deco-none {
+    text-decoration: none;
+}
+
+.ft-sz-16 {
+    font-size: 16px;
+}
+
+.ft-sz-30 {
+    font-size: 30px;
+}
+
+.ln-h-2-4 {
+    line-height: 2.4;
+}
+
+.center {
+    text-align: center;
+}
