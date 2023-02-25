@@ -1,6 +1,19 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
 a {
   text-decoration: none;
   font-weight: 600;
+}
+
+#searchbar {
+  visibility: hidden;
+}
+
+#searchbar input::placeholder {
+  color: #9E9E9E;
 }
 
 .flex {
@@ -21,10 +34,10 @@ a {
   border-radius: 5px;
   font-weight: 400;
   font-size: 18px;
+  text-indent: 50px;
 }
 
 .inp::placeholder {
-  padding-left: 50px;
   font-weight: 400;
   font-size: 18px;
 }
@@ -53,8 +66,8 @@ a {
 .circle {
   border-radius: 50%;
   background-color: #005DF2;
-  height: 60px;
-  width: 60px;
+  height: 50px;
+  width: 50px;
 }
 
 .e-box-shadow {
@@ -84,4 +97,20 @@ a {
 .foot-inp::placeholder {
   font-size: 18px;
   font-weight: 400;
+}
+
+.d-none {
+  display: none;
+}
+
+.d-i-b {
+  display: inline-block;
+}
+
+#training:hover #training-content {
+  display: block;
+}
+
+#training:hover #trainbtn {
+  background-color: #f1f1f1;
 }

@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Global Success System - Improve your business performance by empowering your people.</title>
     <link href="https://fonts.cdnfonts.com/css/recoleta" rel="stylesheet">
@@ -16,6 +17,7 @@
     <link rel="stylesheet" href="./css/text.css">
     <link rel="stylesheet" href="./css/border.css">
     <link rel="stylesheet" href="./css/margin-padding.css">
+    <link rel="stylesheet" href="special.css">
     <style>
         .test {
             border: 1px solid red;
@@ -23,8 +25,15 @@
     </style>
 </head>
 
+
 <body>
-    <header>
+    <!-- Search Bar -->
+    <div class="pos-abs z-10 t-254-l-231 br-15" id="searchbar">
+        <img src="./svg/src.svg" alt="search icon for search bar" class="pos-abs t-27-l-37" id="searchbar_img">
+        <input type="text" name="searchbar" id="searchbar_input" placeholder="Search for products"
+            class="ft-wgt-400 ft-sz-16 font-manrope no-border w-891-h-73  br-15 t-ind-70">
+    </div>
+    <header id="header" class="bg-white padd-tp-10">
         <div class=" flex-center justify-evenl margin-btm-20 justify-between">
             <div class="flex-center justify-even">
                 <a href="#">
@@ -54,20 +63,112 @@
         </div>
 
         <!-- Heading -->
-        <div class="">
+        <div>
             <div class="flex-center justify-between">
                 <div class="flex-center justify-center m-l-60">
                     <a href="#"><img src="./svg/logo.svg" alt="Company Logo"></a><!-- Company Logo -->
                     <div class="flex-center m-l-10 pos-rel">
-                        <img src="./svg/src.svg" alt="Search Icon" class="pos-abs l-15">
-                        <input type="text" name="search-bar" id="search" class="inp" placeholder="Search">
+                        <img src="./svg/src.svg" alt="Search Icon" class="pos-abs l-15"><!-- Search Icon-->
+                        <input type="text" name="search-bar" id="search" class="inp b-greyish"
+                            placeholder="Search"><!-- Search Box -->
                     </div>
                 </div>
                 <div class="flex-center justify-evenly m-r-60">
                     <div class="flex-center justify-evenly m-r-600">
                         <!-- Heading Options -->
-                        <a href="#" class="m-r-30"><span class="font-manrope ft-sz-18 ft-wgt-600 color-primary"
-                                id="training">Training</span></a>
+                        <div id="training" class="pos-rel d-i-b m-r-30"">
+                            <span class=" font-manrope ft-sz-18 ft-wgt-600 color-primary padd-20-10" id="trainbtn"><a
+                                href="#" class="color-primary">Training</a></span>
+                            <div id="training-content"
+                                class="z-1 font-manrope ft-wgt-400 ft-sz-16 color-drop-down wd-70vw pos-abs t-44-l-n-20vw d-none bg-drop-down">
+                                <div class="flex-center justify-evenly">
+                                    <div>
+                                        <ul class="no-list-style margin-btm-20">
+                                            <li class="ft-wgt-800 color-primary margin-btm-10">Governance</li>
+                                            <li class="margin-btm-10">COBIT</li>
+                                            <li class="margin-btm-10">ISO/IEC 38500</li>
+                                            <li class="margin-btm-10">ICGEIT</li>
+                                        </ul>
+                                        <ul class="no-list-style margin-btm-20">
+                                            <li class="ft-wgt-800 color-primary margin-btm-10">Performance Management
+                                            </li>
+                                            <li class="margin-btm-10">Balanced Scorecard</li>
+                                            <li class="margin-btm-10">KPI</li>
+                                            <li class="margin-btm-10">Strategy Management</li>
+                                        </ul>
+                                        <ul class="no-list-style margin-btm-20">
+                                            <li class="ft-wgt-800 color-primary margin-btm-10">Cybersecurity & Privacy
+                                            </li>
+                                            <li class="margin-btm-10">EXIN Information Security based ...</li>
+                                            <li class="margin-btm-10">ISO/IEC 27001</li>
+                                            <li class="margin-btm-10">Cyber & IT Security</li>
+                                            <li class="margin-btm-10">Computer Forensics</li>
+                                            <li class="margin-btm-10">Cybersecurity</li>
+                                            <li class="margin-btm-10">ISO/IEC 27001</li>
+                                            <li class="margin-btm-10">GDPR - Data Protection</li>
+                                        </ul>
+                                    </div>
+                                    <div>
+                                        <ul class="no-list-style margin-btm-20">
+                                            <li class="ft-wgt-800 color-primary margin-btm-10">Continuity & Resilience
+                                            </li>
+                                            <li class="margin-btm-10">BCM ISO 22301</li>
+                                            <li class="margin-btm-10">Disaster Recovery</li>
+                                            <li class="margin-btm-10">Organization Resilience - ISO 22316</li>
+                                        </ul>
+                                        <ul class="no-list-style margin-btm-20">
+                                            <li class="ft-wgt-800 color-primary margin-btm-10">Risk Management</li>
+                                            <li class="margin-btm-10">CRISC</li>
+                                            <li class="margin-btm-10">ISO 31000</li>
+                                            <li class="margin-btm-10">IT Risk Management</li>
+                                            <li class="margin-btm-10">ISO 27005</li>
+                                            <li class="margin-btm-10">M_o_R</li>
+                                        </ul>
+                                        <ul class="no-list-style margin-btm-20">
+                                            <li class="ft-wgt-800 color-primary margin-btm-10">Compliance Management
+                                            </li>
+                                            <li class="margin-btm-10">ISO 19600 CMS</li>
+                                            <li class="margin-btm-10">ISO 37001 ABMS</li>
+                                        </ul>
+                                        <ul class="no-list-style margin-btm-20">
+                                            <li class="ft-wgt-800 color-primary margin-btm-10">Quality & Lean Management
+                                            </li>
+                                            <li class="ft-wgt-800 color-primary margin-btm-10">Project Management
+                                            </li>
+                                            <li class="ft-wgt-800 color-primary margin-btm-10">Service Management
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div>
+                                        <ul class="no-list-style margin-btm-20">
+                                            <li class="ft-wgt-800 color-primary margin-btm-10">Auditing & Assurance</li>
+                                            <li class="margin-btm-10">Cybersecurity Audit</li>
+                                            <li class="margin-btm-10">CISA</li>
+                                            <li class="margin-btm-10">Internal Auditor</li>
+                                            <li class="margin-btm-10">Assessor</li>
+                                        </ul>
+                                        <ul class="no-list-style margin-btm-20">
+                                            <li class="ft-wgt-800 color-primary margin-btm-10">Digital Transformation
+                                            </li>
+                                            <li class="margin-btm-10">Digital Transformation Officer</li>
+                                            <li class="margin-btm-10">Digital Transformation Professional</li>
+                                            <li class="margin-btm-10">Digital Transformation Specialist</li>
+                                            <li class="margin-btm-10">DG Technology Professional</li>
+                                            <li class="margin-btm-10">DG Data Science Professional</li>
+                                            <li class="margin-btm-10">Digital Transformation Data Scientist</li>
+                                            <li class="margin-btm-10">Digital Transformation Security Professional</li>
+                                            <li class="margin-btm-10">DG Technology Professional</li>
+                                        </ul>
+                                        <ul class="no-list-style margin-btm-20">
+                                            <li class="ft-wgt-800 color-primary margin-btm-10">Architecture Management
+                                            </li>
+                                            <li class="ft-wgt-800 color-primary margin-btm-10">Others
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                         <a href="#" class="m-r-30"><span
                                 class="font-manrope ft-sz-18 ft-wgt-600 color-primary">Consulting</span></a>
                         <a href="#" class="m-r-30"><span
@@ -88,7 +189,7 @@
         </div>
     </header>
 
-    <main>
+    <main id="main">
         <!-- Image and everything -->
         <div class="pos-rel">
             <img class="pos-rel wd-100" src="./images/header-bg.png" alt="background">
@@ -151,16 +252,23 @@
                     <span class="ft-sz-30 ft-wgt-500 font-dmserif">About Us</span><br>
                     <span class="ft-sz-16 font-manrope ft-wgt-600">A brief about our vision, mission & us</span>
                 </div>
-                <div class="font-manrope ft-wgt-400">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vitae
+                <div class="font-manrope ft-wgt-400">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+                    vitae
                     sed eget ut turpis eget feugiat aenean viverra. Sodales in urna nec, amet molestie varius. Vel
-                    auctor vitae ultrices eget senectus. Nisi, mattis lectus mi tellus quis ornare. Arcu tristique nulla
-                    duis eu nunc molestie. Donec dictumst sapien enim nec nibh sed arcu. Quis pretium ultrices velit non
-                    euismod. Amet at consectetur at tortor pharetra, nisl donec quam cras. Aliquet dolor etiam commodo
+                    auctor vitae ultrices eget senectus. Nisi, mattis lectus mi tellus quis ornare. Arcu tristique
+                    nulla
+                    duis eu nunc molestie. Donec dictumst sapien enim nec nibh sed arcu. Quis pretium ultrices velit
+                    non
+                    euismod. Amet at consectetur at tortor pharetra, nisl donec quam cras. Aliquet dolor etiam
+                    commodo
                     nisl. <br><br>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vitae sed eget ut turpis eget feugiat
-                    aenean viverra. Sodales in urna nec, amet molestie varius. Vel auctor vitae ultrices eget senectus.
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vitae sed eget ut turpis eget
+                    feugiat
+                    aenean viverra. Sodales in urna nec, amet molestie varius. Vel auctor vitae ultrices eget
+                    senectus.
                     Nisi, mattis lectus mi tellus quis ornare. Arcu tristique nulla duis eu nunc molestie. Donec
-                    dictumst sapien enim nec nibh sed arcu. Quis pretium ultrices velit non euismod. Amet at consectetur
+                    dictumst sapien enim nec nibh sed arcu. Quis pretium ultrices velit non euismod. Amet at
+                    consectetur
                     at tortor pharetra, nisl donec quam cras. Aliquet dolor etiam commodo nisl.</div>
             </div>
         </div>
@@ -190,7 +298,8 @@
                                         Auditors are with an average 15+ years of practical and global
                                         experience.</span>
                                 </div>
-                                <div><a href="#"><span class="font-manrope ft-sz-18 color-tertiary ft-wgt-700">View our
+                                <div><a href="#"><span class="font-manrope ft-sz-18 color-tertiary ft-wgt-700">View
+                                            our
                                             Team</span></a>
                                 </div>
                             </div>
@@ -200,7 +309,8 @@
                             <div class="m-l-20">
                                 <div class="margin-btm-10 "><span class="font-manrope ft-wgt-600 ft-sz-24">Accredited
                                         Courses</span></div>
-                                <div class="margin-btm-30"><span class="font-manrope ft-wgt-500 ft-sz-16">Our courses
+                                <div class="margin-btm-30"><span class="font-manrope ft-wgt-500 ft-sz-16">Our
+                                        courses
                                         and exams are accredited by global Certification Bodies and experts.</span>
                                 </div>
                                 <div><a href="#"><span class="font-manrope ft-sz-18 color-tertiary ft-wgt-700">Our
@@ -213,7 +323,8 @@
                                 <div class="margin-btm-10 "><span class="font-manrope ft-wgt-600 ft-sz-24">Industry
                                         Leading Products and Solutions</span></div>
                                 <div class="margin-btm-30"><span class="font-manrope ft-wgt-500 ft-sz-16">We provide
-                                        customized, practical, implementable <br>services to achieve your goals.</span>
+                                        customized, practical, implementable <br>services to achieve your
+                                        goals.</span>
                                 </div>
                                 <div><a href="#"><span class="font-manrope ft-sz-18 color-tertiary ft-wgt-700">Our
                                             Approach</span></a>
@@ -240,7 +351,8 @@
             style="background-image: url('./images/customer-say.png');">
             <div class="margin-tp-20">
                 <div class="center"><span class="font-dmserif ft-sz-30">What our customer say?</span></div>
-                <div class="center"><span class="font-manrope ft-sz-18">We belive in 100% client satisfaction and here
+                <div class="center"><span class="font-manrope ft-sz-18">We belive in 100% client satisfaction and
+                        here
                         is what they say about us.</span></div>
             </div>
         </div>
@@ -266,7 +378,7 @@
         </div>
     </main>
 
-    <footer class="bg-footer font-manrope padd-b-30">
+    <footer class="bg-footer font-manrope padd-b-30" id="footer">
         <div class="flex justify-evenly padd-t-30">
             <div style="width:15vw;">
                 <div>
@@ -274,7 +386,8 @@
                     <a href="#"><img src="./svg/foot-logo.svg" alt="Logo"></a>
                 </div>
                 <div class="margin-tp-20">
-                    <span class="opa-60 color-white ">Lorem Ipsum is simply dummy text of the printing and typesetting
+                    <span class="opa-60 color-white ">Lorem Ipsum is simply dummy text of the printing and
+                        typesetting
                         industry. Lore</span>
                 </div>
             </div>
@@ -329,7 +442,8 @@
                 </ul>
             </div>
             <div>
-                <div class="margin-tp-20 margin-btm-20"><span class=" color-white ft-sz-24 ft-wgt-600">Subscribe to our
+                <div class="margin-tp-20 margin-btm-20"><span class=" color-white ft-sz-24 ft-wgt-600">Subscribe to
+                        our
                         newsletter</span>
                 </div>
                 <div>
@@ -355,6 +469,7 @@
             <span class="color-white">©2022 All Rights reserved by Global Success Systems.</span>
         </div>
     </footer>
+    <script src="./js/main.js"></script>
 </body>
 
 </html>

@@ -6,6 +6,10 @@
     border-radius: 5px;
 }
 
+.br-15 {
+    border-radius: 15px;
+}
+
 .br-16 {
     border-radius: 16px;
 }
@@ -32,4 +36,17 @@
 
 .wd-40vw {
     width: 40vw;
+}
+
+.b-greyish {
+    border: 1px solid #454A6D;
+}
+
+.wd-70vw {
+    width: 70vw;
+}
+
+.w-891-h-73 {
+    width: 891px;
+    height: 73px;
 }
