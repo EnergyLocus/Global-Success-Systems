@@ -22,10 +22,34 @@
     font-size: 30px;
 }
 
-.ln-h-2-4 {
-    line-height: 2.4;
-}
-
 .center {
     text-align: center;
+}
+
+.ft-wgt-400 {
+    font-weight: 400;
+}
+
+.ft-wgt-600 {
+    font-weight: 600;
+}
+
+.ft-wgt-500 {
+    font-weight: 500;
+}
+
+.ft-wgt-700 {
+    font-weight: 700;
+}
+
+.ft-sz-24 {
+    font-size: 24px;
+}
+
+.ft-sz-14 {
+    font-size: 14px;
+}
+
+.ft-sz-21 {
+    font-size: 21px;
 }

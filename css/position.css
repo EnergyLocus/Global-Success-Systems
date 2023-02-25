@@ -71,3 +71,11 @@
     top: 550px;
     left: 145px;
 }
+
+.f-r {
+    float: right;
+}
+
+.f-l {
+    float: left;
+}

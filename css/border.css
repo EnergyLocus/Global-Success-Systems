@@ -11,5 +11,25 @@
 }
 
 .border-tertiary {
-    border: 1px solid blue;
+    border: 1px solid #005DF2;
+}
+
+.wd-100 {
+    width: 100%;
+}
+
+.wd-80 {
+    width: 80%;
+}
+
+.wd-35vw {
+    width: 35vw;
+}
+
+.wd-8vw {
+    width: 8 vw;
+}
+
+.wd-40vw {
+    width: 40vw;
 }

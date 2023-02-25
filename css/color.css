@@ -14,6 +14,10 @@
     color: white;
 }
 
+.color-footer {
+    color: #061C41;
+}
+
 .bg-primary {
     background-color: #454A6D;
 }
@@ -30,12 +34,12 @@
     background-color: #D2E3FF;
 }
 
-.no-bg {
-    background: none;
+.bg-penta {
+    background-color: #E9F1FF;
 }
 
-.border-teritary {
-    border: 1px solid #005DF2;
+.no-bg {
+    background: none;
 }
 
 .bg-white {
